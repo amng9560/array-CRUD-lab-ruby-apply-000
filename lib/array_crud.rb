@@ -7,34 +7,34 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  cats = ["cat", "small cat", "Haku"]
-  cats << "arrays!"
+  a = ["one", "two", "three"]
+  a << "arrays!"
 end
 
 def add_element_to_start_of_array(array, element)
-  cats = ["lil' bub", "grumpy cat", "Maru"]
-  cats.unshift("wow")
+  a = ["one", "two", "three"]
+  a.unshift("wow")
 end
 
 def remove_element_from_end_of_array(array)
-  arrays! = cats.pop
+  arrays! = a.pop
 end
 
 def remove_element_from_start_of_array(array)
-  wow = cats.shift
+  wow = a.shift
 end
 
 def retrieve_element_from_index(array, index_number)
-  famous_cats =  ["Neko bus", "Puss in Boots", "Cats"]
-  famous_cats[0]
+  a =  ["one", "two", "three"]
+  a[0]
 end
 
 def retrieve_first_element_from_array(array)
-  famous_cats =  ["Neko bus", "Puss in Boots", "Cats"]
-  famous_cats[1]
+  a =  ["one", "two", "three"]
+  a[1]
 end
 
 def retrieve_last_element_from_array(array)
-  famous_cats =  ["Neko bus", "Puss in Boots", "Cats"]
-  famous_cats[2]
+  a =  ["one", "two", "three"]
+  a[2]
 end
